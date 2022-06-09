@@ -17,7 +17,7 @@ function preload() {
   }
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(window.innerWidth, window.innerHeight);
   cam = createCapture(VIDEO);
   cam.size(377, 282);
   cam.hide();
