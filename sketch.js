@@ -13,7 +13,7 @@ function preload() {
   song = loadSound("bday_song.m4a");
 
   for (let i = 0; i < 5; i++) {
-    candle[i] = loadImage("candles/candles-0" + [i + 2] + ".png");
+    candle[i] = loadImage("candles-0" + [i + 2] + ".png");
   }
 }
 function setup() {
