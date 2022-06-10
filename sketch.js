@@ -48,7 +48,7 @@ function homepage() {
   image(cam, 452, 211);
   textAlign(LEFT);
   textSize(16);
-  text("🎵", 442, 620);
+  text("🎤", 442, 620);
   text("🎂", 714, 620);
 }
 
@@ -83,7 +83,7 @@ function makeWish() {
     fill(0);
     textAlign(CENTER);
     textSize(30);
-    text("👑🐯", 0, 0);
+    text("🐯", 0, 0);
     pop();
   }
 }
@@ -92,7 +92,7 @@ function keyPressed() {
   if (keyCode === ENTER) {
     counter++;
   }
-  if (keyCode === SPACEBAR) {
+  if (keyCode === TAB) {
     saveCanvas("24th_bday", "jpg");
   }
 }
