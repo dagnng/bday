@@ -83,7 +83,7 @@ function makeWish() {
     fill(0);
     textAlign(CENTER);
     textSize(30);
-    text("👑", 0, 0);
+    text("👑🐯", 0, 0);
     pop();
   }
 }
@@ -92,7 +92,7 @@ function keyPressed() {
   if (keyCode === ENTER) {
     counter++;
   }
-  if (keyCode === TAB) {
+  if (keyCode === SPACEBAR) {
     saveCanvas("24th_bday", "jpg");
   }
 }
